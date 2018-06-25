@@ -1,0 +1,4 @@
+/dist/**
+/stories/**
+webpack.*.js
+postcss.config.js
