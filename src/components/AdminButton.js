@@ -10,6 +10,8 @@ const FlatButton = styled.button`
 
 const Button = FlatButton.extend`
   background-color: transparent;
+  text-transform: uppercase;
+  margin: 1rem 2rem;
   color: white;
 `;
 

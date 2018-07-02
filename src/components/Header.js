@@ -9,6 +9,7 @@ const Wrapper = styled.header`
   display: flex;
   align-items: center;
   background-color: black;
+  height: 70px;
 `;
 
 const Header = () => (
