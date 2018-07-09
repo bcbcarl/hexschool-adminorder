@@ -4,7 +4,7 @@ const Logo = styled.h1`
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 24px;
   font-weight: bold;
-  margin: 1rem 2rem;
+  margin: 1rem;
   color: white;
 `;
 

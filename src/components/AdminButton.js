@@ -10,13 +10,14 @@ const FlatButton = styled.button`
 
 const Button = FlatButton.extend`
   background-color: transparent;
-  text-transform: uppercase;
-  margin: 1rem 2rem;
+  height: 100%;
+  padding: 1rem;
   color: white;
+  cursor: pointer;
 `;
 
 const AdminButton = () => (
-  <Typography variant="subheading" container={Button}>
+  <Typography variant="subheading" transform="uppercase" component={Button}>
     Admin
   </Typography>
 );
